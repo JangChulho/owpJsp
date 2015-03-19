@@ -1,0 +1,44 @@
+body{
+	font-family: "맑은 고딕","돋움",dotum,arial,sans-serif;
+}
+#header{
+		margin-top : 30px;
+		margin-bottom : 60px;
+}
+@media(min-width:992px){
+	#sideMenu{
+		margin-top: 20px;
+		height: 785px;
+	}
+	#contents{
+		margin-left: 30px;
+	}	
+}
+@media(max-width:767px){	
+	#bodyrow{
+		margin-left: -1px;
+		margin-right: -1px;
+	}
+}	
+#sideMenu{	
+	border-style : double;
+	border-color : #808080;
+	border-radius : 20px;
+	text-align: center;
+	font-size : 25pt;
+	font-weight : bold;
+	line-height: 2.0;		 
+	margin-bottom: 30px;	
+}
+#contents{	
+	line-height: 2.0;
+	font-size : 15pt;	
+}
+#contents hr{
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+#contents h3{
+	color:red;
+	line-height: 2.0;
+}
